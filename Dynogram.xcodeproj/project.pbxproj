@@ -3,18 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20E65B1F55B0011FB132ADE0 /* Pods_Dynogram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB199C20E259124A3441C71 /* Pods_Dynogram.framework */; };
+		4481253BEC75C23FB459A100 /* Pods_Dynogram_DynogramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232FD486090F3609DFA96268 /* Pods_Dynogram_DynogramUITests.framework */; };
 		C7CF12FB2600898900CA9F39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CF12FA2600898900CA9F39 /* AppDelegate.swift */; };
 		C7CF12FD2600898900CA9F39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CF12FC2600898900CA9F39 /* SceneDelegate.swift */; };
-		C7CF12FF2600898900CA9F39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CF12FE2600898900CA9F39 /* ViewController.swift */; };
 		C7CF13022600898900CA9F39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7CF13002600898900CA9F39 /* Main.storyboard */; };
 		C7CF13042600898B00CA9F39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7CF13032600898B00CA9F39 /* Assets.xcassets */; };
 		C7CF13072600898B00CA9F39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7CF13052600898B00CA9F39 /* LaunchScreen.storyboard */; };
 		C7CF13122600898B00CA9F39 /* DynogramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CF13112600898B00CA9F39 /* DynogramTests.swift */; };
 		C7CF131D2600898B00CA9F39 /* DynogramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CF131C2600898B00CA9F39 /* DynogramUITests.swift */; };
+		C7CF134026008E3A00CA9F39 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CF133F26008E3A00CA9F39 /* LoginViewController.swift */; };
+		C7CF134526008E5500CA9F39 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CF134426008E5500CA9F39 /* FeedViewController.swift */; };
+		C7CF134A2601C00600CA9F39 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CF13492601C00600CA9F39 /* CameraViewController.swift */; };
+		C7CF135A2601CE4600CA9F39 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CF13592601CE4600CA9F39 /* PostCell.swift */; };
+		E4DD5A601F6EE710E090C796 /* Pods_DynogramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDAFF7C983564BA135C43FBA /* Pods_DynogramTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +41,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		232FD486090F3609DFA96268 /* Pods_Dynogram_DynogramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dynogram_DynogramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		355CCD31227F7D06EBF9F96B /* Pods-DynogramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynogramTests.release.xcconfig"; path = "Target Support Files/Pods-DynogramTests/Pods-DynogramTests.release.xcconfig"; sourceTree = "<group>"; };
+		3DB199C20E259124A3441C71 /* Pods_Dynogram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dynogram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A50D2E44F17545352436DFA /* Pods-DynogramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynogramTests.debug.xcconfig"; path = "Target Support Files/Pods-DynogramTests/Pods-DynogramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6BB775AF27B380D31AC6FC23 /* Pods-Dynogram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dynogram.release.xcconfig"; path = "Target Support Files/Pods-Dynogram/Pods-Dynogram.release.xcconfig"; sourceTree = "<group>"; };
+		B7407C8AA005EE8AD64FFB58 /* Pods-Dynogram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dynogram.debug.xcconfig"; path = "Target Support Files/Pods-Dynogram/Pods-Dynogram.debug.xcconfig"; sourceTree = "<group>"; };
+		BD85D43E9C3FECD69ACE74AF /* Pods-Dynogram-DynogramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dynogram-DynogramUITests.release.xcconfig"; path = "Target Support Files/Pods-Dynogram-DynogramUITests/Pods-Dynogram-DynogramUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C7CF12F72600898900CA9F39 /* Dynogram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dynogram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7CF12FA2600898900CA9F39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7CF12FC2600898900CA9F39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C7CF12FE2600898900CA9F39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C7CF13012600898900CA9F39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7CF13032600898B00CA9F39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7CF13062600898B00CA9F39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +61,12 @@
 		C7CF13182600898B00CA9F39 /* DynogramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynogramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7CF131C2600898B00CA9F39 /* DynogramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynogramUITests.swift; sourceTree = "<group>"; };
 		C7CF131E2600898B00CA9F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7CF133F26008E3A00CA9F39 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C7CF134426008E5500CA9F39 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		C7CF13492601C00600CA9F39 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		C7CF13592601CE4600CA9F39 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		DA55F182A306F8CBDEF1198A /* Pods-Dynogram-DynogramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dynogram-DynogramUITests.debug.xcconfig"; path = "Target Support Files/Pods-Dynogram-DynogramUITests/Pods-Dynogram-DynogramUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FDAFF7C983564BA135C43FBA /* Pods_DynogramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynogramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20E65B1F55B0011FB132ADE0 /* Pods_Dynogram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4DD5A601F6EE710E090C796 /* Pods_DynogramTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4481253BEC75C23FB459A100 /* Pods_Dynogram_DynogramUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22643C89281044086354BDF6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7407C8AA005EE8AD64FFB58 /* Pods-Dynogram.debug.xcconfig */,
+				6BB775AF27B380D31AC6FC23 /* Pods-Dynogram.release.xcconfig */,
+				DA55F182A306F8CBDEF1198A /* Pods-Dynogram-DynogramUITests.debug.xcconfig */,
+				BD85D43E9C3FECD69ACE74AF /* Pods-Dynogram-DynogramUITests.release.xcconfig */,
+				6A50D2E44F17545352436DFA /* Pods-DynogramTests.debug.xcconfig */,
+				355CCD31227F7D06EBF9F96B /* Pods-DynogramTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B48AA7F341F199F43B0FEE75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DB199C20E259124A3441C71 /* Pods_Dynogram.framework */,
+				232FD486090F3609DFA96268 /* Pods_Dynogram_DynogramUITests.framework */,
+				FDAFF7C983564BA135C43FBA /* Pods_DynogramTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C7CF12EE2600898900CA9F39 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +127,8 @@
 				C7CF13102600898B00CA9F39 /* DynogramTests */,
 				C7CF131B2600898B00CA9F39 /* DynogramUITests */,
 				C7CF12F82600898900CA9F39 /* Products */,
+				22643C89281044086354BDF6 /* Pods */,
+				B48AA7F341F199F43B0FEE75 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +147,14 @@
 			children = (
 				C7CF12FA2600898900CA9F39 /* AppDelegate.swift */,
 				C7CF12FC2600898900CA9F39 /* SceneDelegate.swift */,
-				C7CF12FE2600898900CA9F39 /* ViewController.swift */,
 				C7CF13002600898900CA9F39 /* Main.storyboard */,
 				C7CF13032600898B00CA9F39 /* Assets.xcassets */,
 				C7CF13052600898B00CA9F39 /* LaunchScreen.storyboard */,
 				C7CF13082600898B00CA9F39 /* Info.plist */,
+				C7CF133F26008E3A00CA9F39 /* LoginViewController.swift */,
+				C7CF134426008E5500CA9F39 /* FeedViewController.swift */,
+				C7CF13492601C00600CA9F39 /* CameraViewController.swift */,
+				C7CF13592601CE4600CA9F39 /* PostCell.swift */,
 			);
 			path = Dynogram;
 			sourceTree = "<group>";
@@ -135,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7CF13212600898B00CA9F39 /* Build configuration list for PBXNativeTarget "Dynogram" */;
 			buildPhases = (
+				5D81AD3C33FF319F3599360C /* [CP] Check Pods Manifest.lock */,
 				C7CF12F32600898900CA9F39 /* Sources */,
 				C7CF12F42600898900CA9F39 /* Frameworks */,
 				C7CF12F52600898900CA9F39 /* Resources */,
+				5DC2A3388618B0986E8B09C8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7CF13242600898B00CA9F39 /* Build configuration list for PBXNativeTarget "DynogramTests" */;
 			buildPhases = (
+				7B713B5D8B9205C3F289ADE5 /* [CP] Check Pods Manifest.lock */,
 				C7CF13092600898B00CA9F39 /* Sources */,
 				C7CF130A2600898B00CA9F39 /* Frameworks */,
 				C7CF130B2600898B00CA9F39 /* Resources */,
@@ -170,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7CF13272600898B00CA9F39 /* Build configuration list for PBXNativeTarget "DynogramUITests" */;
 			buildPhases = (
+				9CB91ACC1F58A3FBD22A6713 /* [CP] Check Pods Manifest.lock */,
 				C7CF13142600898B00CA9F39 /* Sources */,
 				C7CF13152600898B00CA9F39 /* Frameworks */,
 				C7CF13162600898B00CA9F39 /* Resources */,
+				EBB868A2D3C1B92644EB8725 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +307,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5D81AD3C33FF319F3599360C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dynogram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DC2A3388618B0986E8B09C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dynogram/Pods-Dynogram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dynogram/Pods-Dynogram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dynogram/Pods-Dynogram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B713B5D8B9205C3F289ADE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DynogramTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CB91ACC1F58A3FBD22A6713 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dynogram-DynogramUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBB868A2D3C1B92644EB8725 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dynogram-DynogramUITests/Pods-Dynogram-DynogramUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dynogram-DynogramUITests/Pods-Dynogram-DynogramUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dynogram-DynogramUITests/Pods-Dynogram-DynogramUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C7CF12F32600898900CA9F39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7CF12FF2600898900CA9F39 /* ViewController.swift in Sources */,
+				C7CF134026008E3A00CA9F39 /* LoginViewController.swift in Sources */,
+				C7CF134A2601C00600CA9F39 /* CameraViewController.swift in Sources */,
 				C7CF12FB2600898900CA9F39 /* AppDelegate.swift in Sources */,
+				C7CF134526008E5500CA9F39 /* FeedViewController.swift in Sources */,
 				C7CF12FD2600898900CA9F39 /* SceneDelegate.swift in Sources */,
+				C7CF135A2601CE4600CA9F39 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +593,7 @@
 		};
 		C7CF13222600898B00CA9F39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7407C8AA005EE8AD64FFB58 /* Pods-Dynogram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,12 +607,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ui.Dynogram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		C7CF13232600898B00CA9F39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BB775AF27B380D31AC6FC23 /* Pods-Dynogram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -465,12 +627,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ui.Dynogram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		C7CF13252600898B00CA9F39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A50D2E44F17545352436DFA /* Pods-DynogramTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +656,7 @@
 		};
 		C7CF13262600898B00CA9F39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 355CCD31227F7D06EBF9F96B /* Pods-DynogramTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +679,7 @@
 		};
 		C7CF13282600898B00CA9F39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA55F182A306F8CBDEF1198A /* Pods-Dynogram-DynogramUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +700,7 @@
 		};
 		C7CF13292600898B00CA9F39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD85D43E9C3FECD69ACE74AF /* Pods-Dynogram-DynogramUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
