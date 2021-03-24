@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		20E65B1F55B0011FB132ADE0 /* Pods_Dynogram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB199C20E259124A3441C71 /* Pods_Dynogram.framework */; };
 		4481253BEC75C23FB459A100 /* Pods_Dynogram_DynogramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232FD486090F3609DFA96268 /* Pods_Dynogram_DynogramUITests.framework */; };
+		C7002E6A260B0615009A8F97 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7002E69260B0615009A8F97 /* CommentCell.swift */; };
 		C7CF12FB2600898900CA9F39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CF12FA2600898900CA9F39 /* AppDelegate.swift */; };
 		C7CF12FD2600898900CA9F39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CF12FC2600898900CA9F39 /* SceneDelegate.swift */; };
 		C7CF13022600898900CA9F39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7CF13002600898900CA9F39 /* Main.storyboard */; };
@@ -48,6 +49,7 @@
 		6BB775AF27B380D31AC6FC23 /* Pods-Dynogram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dynogram.release.xcconfig"; path = "Target Support Files/Pods-Dynogram/Pods-Dynogram.release.xcconfig"; sourceTree = "<group>"; };
 		B7407C8AA005EE8AD64FFB58 /* Pods-Dynogram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dynogram.debug.xcconfig"; path = "Target Support Files/Pods-Dynogram/Pods-Dynogram.debug.xcconfig"; sourceTree = "<group>"; };
 		BD85D43E9C3FECD69ACE74AF /* Pods-Dynogram-DynogramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dynogram-DynogramUITests.release.xcconfig"; path = "Target Support Files/Pods-Dynogram-DynogramUITests/Pods-Dynogram-DynogramUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C7002E69260B0615009A8F97 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		C7CF12F72600898900CA9F39 /* Dynogram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dynogram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7CF12FA2600898900CA9F39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7CF12FC2600898900CA9F39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				C7CF12FA2600898900CA9F39 /* AppDelegate.swift */,
 				C7CF12FC2600898900CA9F39 /* SceneDelegate.swift */,
 				C7CF13002600898900CA9F39 /* Main.storyboard */,
+				C7002E69260B0615009A8F97 /* CommentCell.swift */,
 				C7CF13032600898B00CA9F39 /* Assets.xcassets */,
 				C7CF13052600898B00CA9F39 /* LaunchScreen.storyboard */,
 				C7CF13082600898B00CA9F39 /* Info.plist */,
@@ -421,6 +424,7 @@
 				C7CF134526008E5500CA9F39 /* FeedViewController.swift in Sources */,
 				C7CF12FD2600898900CA9F39 /* SceneDelegate.swift in Sources */,
 				C7CF135A2601CE4600CA9F39 /* PostCell.swift in Sources */,
+				C7002E6A260B0615009A8F97 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

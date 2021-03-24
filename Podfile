@@ -8,6 +8,7 @@ target 'Dynogram' do
   # Pods for Dynogram
     pod 'Parse'
     pod 'AlamofireImage'
+    pod 'MessageInputBar'
 
   target 'DynogramTests' do
     inherit! :search_paths
